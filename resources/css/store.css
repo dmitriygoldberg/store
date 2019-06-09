@@ -1,0 +1,89 @@
+.store {
+    width: 100%;
+    margin: auto;
+    color: var(--color-title-on-light);
+    margin-bottom: 20px;
+
+    @media (min-width: 1250px) {
+        width: 80%;
+    }
+
+    &__title {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    &__info {
+        text-align: center;
+    }
+
+    &__to-basket {
+        float: right;
+        width: 20%;
+
+        &-icon {
+            width: 25px;
+            height: 25px;
+            margin-left: 10px;
+        }
+    }
+
+    &__to-order-history {
+        float: left;
+        width: 20%;
+    }
+
+    &__good {
+        margin-bottom: 20px;
+
+        &-price {
+            text-align: center;
+            margin: 5px 0 5px 0;
+        }
+
+        &-title {
+            text-align: center;
+            height: 50px;
+
+            @media (max-width: 1250px) {
+                font-size: 14px;
+            }
+        }
+
+        &-img {
+            width: 150px;
+            height: 180px;
+            margin: auto;
+            display: block;
+        }
+
+        &-basket,
+        &-go-to-basket {
+            width: 100%;
+            display: none;
+
+            &-icon {
+                width: 25px;
+                height: 25px;
+                margin-left: 10px;
+            }
+
+            .preloader {
+                display: none;
+            }
+
+            .preloader.active {
+                display: inline-block;
+            }
+        }
+
+        &-basket.active,
+        &-go-to-basket.active {
+            display: inline-block;
+        }
+    }
+}
+
+.container {
+    max-width: none;
+}

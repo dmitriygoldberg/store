@@ -1,0 +1,8 @@
+.idea
+ubuntu*
+vendor
+node_modules
+phinx.yml
+composer.phar
+public/main.js
+public/style.css

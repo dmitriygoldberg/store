@@ -1,0 +1,65 @@
+.basket {
+    width: 100%;
+    margin: auto;
+    color: var(--color-title-on-light);
+    margin-bottom: 20px;
+
+    @media (min-width: 1250px) {
+        width: 80%;
+    }
+
+    &__empty,
+    &__table-wrapper {
+        display: none;
+    }
+
+    &__empty.active,
+    &__table-wrapper.active {
+        display: inline;
+    }
+
+    &__title {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    &__info {
+        text-align: center;
+    }
+
+    &__total-price {
+        text-align: right;
+        font-size: 26px;
+
+        &-value {
+            display: inline;
+        }
+    }
+
+    &__buttons {
+        float: right;
+
+        .preloader {
+            display: none;
+        }
+
+        .preloader.active {
+            display: inline-block;
+        }
+    }
+
+    &__to-order {
+        width: 220px;
+    }
+
+    &__good-img {
+        width: 25px;
+        height: 30px;
+        margin: auto;
+        display: block;
+    }
+
+    &__rm-good-btn {
+        cursor: pointer;
+    }
+}

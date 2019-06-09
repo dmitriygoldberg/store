@@ -1,0 +1,51 @@
+:root {
+  /* Adaptive sizes */
+  @custom-media --viewport-desktop (min-width: 992px);
+  @custom-media --viewport-tablet (min-width: 768px) and (max-width: 991px);
+  @custom-media --viewport-tablet-and-desktop (min-width: 768px);
+  @custom-media --viewport-mobile (min-width: 0px) and (max-width: 767px);
+  @custom-media --viewport-mobile-and-tablet (min-width: 220px) and (max-width: 991px);
+
+  /* WEB PALETTE */
+  /* solid colors */
+  --color-selected-state-red: #bc2228;
+  --color-primary-cta-green: #3f9041;
+  --color-secondary-action-grey: #888888;
+  --color-blue: #00599e;
+  --color-blue-hover: #0190fe;
+
+  /* gradient ui colors */
+  --gradient-red: linear-gradient(#ec162b, #8b020c);
+  --gradient-red-brighten: linear-gradient(#f7162b, #9c020c);
+  --gradient-green: linear-gradient(#48ac51, #31672a);
+  --gradient-green-brighten: linear-gradient(#5cb463, #45753f);
+  --gradient-blue: linear-gradient(#0271c8, #014a82);
+  --gradient-grey: linear-gradient(#7b7b7b, #2a2a2a);
+  --gradient-grey-brighten: linear-gradient(#888888, #313131);
+  --gradient-grey-menu: linear-gradient(#7d7d7d, #454545);
+  --gradient-grey-menu-brighten: linear-gradient(#8c8c8c, #4f4f4f);
+
+  /* module ui colors */
+  --color-module-pure-white: #ffffff;
+  --color-module-off-white: #f9f9f9;
+  --color-module-grey: #181818;
+  --color-module-pure-black: #000000;
+  --color-module-off-black: #181818;
+
+  /* font colors */
+  --color-title-on-light: #272727;
+  --color-body-on-light: #444444;
+  --color-title-on-dark: #f9f9f9;
+  --color-body-on-dark: #e4e4e4;
+
+  /* additional */
+  --color-border-grey: #e8e8e8;
+  --color-border-grey-input-border: #cccccc;
+  --color-border-grey-dark: #7d7d7d;
+  --color-border-grey-light: #e5e5e5;
+  --color-menu-bg: #f5f5f5;
+  --color-mobile-menu-bg: #272727;
+  --color-mobile-menu-bg-brighten: #313131;
+  --color-background-beginners-bankroll-hero: #0a1225;
+  --color-background-default-hero: #000000;
+}

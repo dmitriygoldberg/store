@@ -1,0 +1,27 @@
+.order-history {
+    width: 100%;
+    margin: auto;
+    color: var(--color-title-on-light);
+    margin-bottom: 20px;
+
+    @media (min-width: 1250px) {
+        width: 80%;
+    }
+
+    &__title {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    &__info {
+        text-align: center;
+    }
+
+    &__buttons {
+        float: right;
+    }
+
+    &__to-store {
+        width: 220px;
+    }
+}

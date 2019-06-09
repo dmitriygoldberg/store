@@ -1,0 +1,51 @@
+.order {
+    width: 100%;
+    margin: auto;
+    color: var(--color-title-on-light);
+    margin-bottom: 20px;
+
+    @media (min-width: 1250px) {
+        width: 80%;
+    }
+
+    &__title {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    &__info {
+        text-align: center;
+        &-status {
+            display: inline;
+        }
+    }
+
+    &__total-price {
+        text-align: right;
+        font-size: 26px;
+    }
+
+    &__buttons {
+        float: right;
+
+        .preloader {
+            display: none;
+        }
+
+        .preloader.active {
+            display: inline-block;
+        }
+    }
+
+    &__pay,
+    &__remove{
+        width: 220px;
+    }
+
+    &__good-img {
+        width: 25px;
+        height: 30px;
+        margin: auto;
+        display: block;
+    }
+}

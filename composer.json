@@ -1,0 +1,16 @@
+{
+    "name": "dmitriy/store",
+    "autoload": {
+        "psr-4": {
+          "": "app/",
+          "app\\": ""
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "robmorgan/phinx": "^0.10.7",
+        "illuminate/database": "^5.8",
+        "twbs/bootstrap": "4.3.1",
+        "curl/curl": "^2.2"
+    }
+}
